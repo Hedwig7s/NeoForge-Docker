@@ -1,6 +1,6 @@
 # SpongeMC-Docker
 
-Docker image running [SpongeMC](https://spongepowered.org/)
+Docker image running [NeoForged](https://neoforged.net/)
 
 ## Usage
 
@@ -17,7 +17,7 @@ All of the Environment Variables:
 
 | Variable | Value | Description |
 | - | - | - |
-| MC_VERSION | `1.21.3` | The Minecraft version to use |
+| NEOFORGE_VERSION | `21.4.119-beta` | Neoforge version to use |
 | MC_EULA | `true` | Accepting the [EULA](https://account.mojang.com/documents/minecraft_eula) |
 | MC_RAM_XMS | `1536M` | Preallocated RAM (for Purpur) |
 | MC_RAM_XMX | `2048M` | Max RAM (for Purpur) |
